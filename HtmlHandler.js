@@ -24,14 +24,22 @@ function htmlchange(currentversion) {
 
 //alert("hi");
 
-function changegame(version) {
+function changegame(version,type) {
 
     //html1.innerHTML='<object type="text/html" data="index.html" ></object>';
     if(version == 1){
-    window.location.href = "html1(computer).html";
+        if(type = "computer"){
+        window.location.href = "html1(computer).html";
+        } else if(type="phone"){
+            
+        }
     }else
     if(version == 2){
-    window.location.href = "html2(phone).html";
+        if(type="computer"){
+            
+        } else if(type="phone"){
+        window.location.href = "html2(phone).html";
+        }
     }
 }
 
