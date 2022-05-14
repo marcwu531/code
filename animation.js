@@ -35,7 +35,7 @@ window.kt2r = 1;
 }*/
 let ans;
 async function animation(){
-    ans = prompt("","");
+    ans = prompt("Which","animation");
     if(ans == "3cmvsnogu"){
     document.getElementById("animation").style.display = "none";
     //alert("Happy mother day!");
@@ -111,9 +111,10 @@ async function animation(){
         document.getElementById(ktallpos[i]).style.right = +(document.getElementById(ktallpos[i]).style.right.split("px")[0])+175+"px";
     }
     for (i = 0; i < jyallpos.length; i++) {
-        document.getElementById(jyallpos[i]).style.right = +(document.getElementById(jyallpos[i]).style.right.split("px")[0])+230+"px";
+        document.getElementById(jyallpos[i]).style.right = +(document.getElementById(jyallpos[i]).style.right.split("px")[0])+250+"px";
     }
     ktmove("1st");
+    //await delay(3000);
     }
 }
 
