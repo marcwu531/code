@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" class="disable-dbl-tap-zoom">
+<head>
+<meta charset = "utf-8">
+<link rel="stylesheet" href="style2.css">
+</head>
+
+<body bgcolor="#ffffff">
+<meta name="viewport" content="width=device-width, user-scramble=no, maximum-scale=1">
+<h1>
+HTML code
+</h1>
+
+<p1>
+Made by Marc
+</p1>
+<br>
+<div class='animation'>
+    <input id="animation" type="button" value="Animation" onclick="animation()" />
+</div>
+<div class="contain" id="edge">
+        <div id="kt"></div>
+        <div id="kthead"><FONT COLOR=white>KT</div>
+        <div id="ktbody"></div>
+        <div id="ktlefthand"></div>
+        <div id="ktrighthand"></div>
+        <div id="ktpp"></div>
+        <div id="ktleftleg"></div>
+        <div id="ktrightleg"></div>
+
+        <div id="jy"></div>
+        <div id="jyhead"><FONT COLOR=white>JY</div>
+        <div id="jybody"></div>
+        <div id="jylefthand"></div>
+        <div id="jyrighthand"></div>
+        <div id="jypp"></div>
+        <div id="jyleftleg"></div>
+        <div id="jyrightleg"></div>
+</div>
+
+<br>
+
+<a id="htmlchange" href="javascript:htmlchange(2);">Change Html</a>
+
+<div id="htmls" class="htmls">
+<div id='html1'>
+    <input type="button" value="html1(computer)" onclick="changegame(1)">
+</div>
+<div id='html2'>
+    <input type="button" value="html2(phone)" onclick="changegame(2)">
+</div>
+</div>
+
+<br>
+
+<script>
+/*$(document).ready( function() {
+
+    $("#changegame").on("click", function() {
+
+        $("#content").load("content.html");
+    });
+});*/
+</script>
+<script src="HtmlHandler.js"></script>
+<script src="animation.js"></script>
+<script src="wait.js"></script>
+<script src="number.js"></script>
+<!-- <script src="zoom.js"></script> -->
+
+<canvas id=canvas height=500 width=600>
+</canvas>
+
+</body>
+</html>

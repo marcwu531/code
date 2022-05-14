@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+#edge{
+width: 600px;
+height: 500px;
+border: 1px solid black;
+margin: auto;
+overflow: hidden;
+visibility: hidden;
+}
+
+.contain{
+overflow: hidden;
+}
+
+#kt{
+width: 50px;
+height: 30px;
+background-color: none;
+transform: rotate(0deg);
+}
+
+#kthead{
+width: 20px;
+height: 20px;
+background-color: black;
+position: absolute;
+top:300px;
+right:300px;
+border-radius: 50%;
+transform: rotate(0deg);
+z-index: 100;
+}
+
+#ktbody{
+width: 5px;
+height:50px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(0deg);
+}
+
+#ktlefthand{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(45deg);
+}
+
+#ktrighthand{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-45deg);
+}
+
+#ktpp{
+width: 5px;
+height:10px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-75deg);
+}
+
+#ktleftleg{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(45deg);
+}
+
+#ktrightleg{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-45deg);
+}
+
+#jy{
+width: 50px;
+height: 30px;
+background-color: none;
+transform: rotate(0deg);
+}
+
+#jyhead{
+width: 20px;
+height: 20px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 50%;
+transform: rotate(0deg);
+overflow: hidden;
+z-index: 100;
+}
+
+#jybody{
+width: 5px;
+height:50px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(0deg);
+}
+
+#jylefthand{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-135deg);
+}
+
+#jyrighthand{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(135deg);
+}
+
+#jypp{
+width: 5px;
+height:10px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-75deg);
+filter: brightness(1);
+}
+
+#jyleftleg{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-135deg);
+}
+
+#jyrightleg{
+width: 5px;
+height:15px;
+background-color: black;
+position: absolute;
+top:300px;
+right:100px;
+border-radius: 0%;
+transform: rotate(-135deg);
+}
+
+.disable-dbl-tap-zoom {
+touch-action: manipulation;
+}
+
+body {
+min-height: 100vh;
+max-width: 800px;
+}

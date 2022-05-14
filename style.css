@@ -1,0 +1,132 @@
+   *{
+        padding: 0;
+        margin:0;
+    }
+
+    #happybirthday {
+        width: 200px;
+        height: 75px;
+    }
+    
+    #snakegame {
+        width: 200px;
+        height: 75px;
+    }
+    
+    #bird {
+        width: 200px;
+        height: 75px;
+    }
+
+    #pakour {
+        position: relative;
+        right: -200px;
+        bottom: 405px;
+        width: 200px;
+        height: 75px;
+    }
+    
+    #left{
+        position: relative;
+        right: -700px;
+        bottom: -450px;
+        width: 75px;
+        height: 75px;
+    }
+    
+    #right{
+    position: relative;
+        right: -780px;
+        bottom: -375px;
+        width: 75px;
+        height: 75px;
+    }
+    
+    #up{
+        position: relative;
+        right: -740px;
+        bottom: -220px;
+        width: 75px;
+        height: 75px;
+    }
+    
+    #down{
+        position: relative;
+        right: -740px;
+        bottom: -305px;
+        width: 75px;
+        height: 75px;
+    }
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+#block{
+    width: 50px;
+    height: 500px;
+    background-color: green;
+    position: relative;
+    left: 400px;
+    animation: block 2s infinite linear;
+}
+@keyframes block {
+    0%{left:400px}
+    100%{left:-50px}
+}
+
+#hole{
+    width: 50px;
+    height: 150px;
+    background-color: lightblue;
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: block 2s infinite linear;
+}
+
+#character{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    background-image: url("bird.svg");
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
+    background-size: 30%;
+    background-blend-mode: multiply;
+}
+
+/*.paused {
+    animation-play-state: paused;
+  }*/
+
+#balljump {
+    position: relative;
+    right: -575px;
+    bottom: 300px;
+    width: 75px;
+    height: 75px;
+}
+
+#Pause {
+    position: absolute;
+}
+
+#Pressrenai {
+    position: absolute;
+}
+
+#pakoursetting{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+    background-color: lightblue;
+}

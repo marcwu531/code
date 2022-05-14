@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en" onclick="clicked()">
+<head>
+
+<meta charset = "utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="user-scalable=no">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>
+HTML code
+</h1>
+
+<h2>
+Made by Marc
+</h2>
+<br>
+<p>
+  Have fun!
+</p>
+<br>
+<button id="gaybutton" onclick="gay()">
+???
+</button>
+
+<a id="Pressrenai" href="javascript:music(renai);">
+    Renai Circulation 
+</a>
+<br>
+<div class='happybirthday'>
+    <input id="happybirthday" type="button" value="Happy Birthday! (Click me)" onclick="happybirthday()">
+</div>
+
+<div class='snakegame'>
+    <input id="snakegame" type="button" value="Snake Game" onclick="snakegame()">
+</div>
+
+<div class='bird'>
+    <input id="bird" type="button" value="Flappy ball(bird)" onclick="bird()">
+</div>
+
+<div class='left'>
+    <input id="left" type="button" value="Left" onclick="snakeleft()">
+</div>
+
+<div class='right'>
+    <input id="right" type="button" value="Right" onclick="snakeright()">
+</div>
+
+<div class='up'>
+    <input id="up" type="button" value="Up" onclick="snakeup()">
+</div>
+
+<div class='down'>
+    <input id="down" type="button" value="Down" onclick="snakedown()">
+</div>
+
+<canvas id=canvas height=400 width=600>
+</canvas>
+
+<div id="game">
+
+    <div id="block"></div>
+
+    <div id="hole"></div>
+
+    <div id="character"></div>
+
+</div>
+
+<div id="pakoursetting">
+
+    <div id="pakourplayer"></div>
+
+</div>
+
+<div class='balljump'>
+    <input id="balljump" type="button" value="Jump" onclick="jump()">
+</div>
+
+<script src="birthday.js">
+</script>
+
+<script src="gay.js">
+</script>
+
+<script src="snake.js">
+</script>
+
+<script src="number.js">
+</script>
+
+<script src="bird.js">
+</script>
+
+<script src="clicked.js">
+</script>
+
+<script src="endgame.js">
+</script>
+
+<script src="music.js">
+</script>
+
+<script src="pakour.js">
+</script>
+
+<script>
+  
+window.isornotok = 1;
+
+function bug(place) {
+    alert(`Error. (Place: ${place})`);
+}
+
+/*Select();
+if (execute == "gay") {
+gay();
+} else {
+    bug("execute");
+}*/
+//breed();
+
+/*function Select() {
+    window.execute = prompt("What file you want to execute?(gay)","");
+    alert(`Loading ${execute}`);
+}*/
+
+/*
+birthdays:
+kt: 073
+jy: 411
+vp: 612
+ytw: 718
+*/
+
+//music("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+
+//gmail : marcwu531@gmail.com
+
+document.getElementById("gaybutton").style.display = ("none");
+
+</script>
+<br>
+<a href="javascript:ButtonProblem();" id="ButtonProblem">
+    Nothing here
+</a>
+<br><br>
+
+<a href="javascript:musicshowup(1);" id="Musics">
+    Musics
+</a>
+
+<br><br>
+
+<a href="javascript:musicshowup(2);" id="Rick">
+    Rick Astley
+</a>
+<br>
+<a href="javascript:musicshowup(3);" id="dyhtps1">
+    Liberty
+</a>
+
+
+<audio id="nggyu" src="nggyu3.env" preload="auto"></audio>
+<audio id="tf" src="tf3.env" preload="auto"></audio>
+<audio id="renai" src="renai3.env" preload="auto"></audio>
+<audio id="dyhtps" src="dyhtps.env" preload="auto"></audio>
+<br>
+<a id="好康的" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+    Something good:
+</a>
+
+<a id="Press nggyu" href="javascript:music(nggyu);">
+    Press me!
+</a>
+<br>
+
+<a id="nggyusong" href="javascript:music(nggyu);">
+    Never gonna give you up
+</a>
+
+<video id="nggyuvid" width="400" controls>
+    <source src="NGGYU4.env" type="video/mp4">
+    <source src="nggyu3.env" type="video/mp3">
+</video>
+
+<br>
+
+<a id="tf word" href="javascript:music(tf);">
+    Together forever
+</a>
+
+<video id="tfvid" width="400" controls>
+    <source src="tf4.env" type="video/mp4">
+    <source src="tf3.env" type="video/mp3">
+</video>
+
+<a id="dyhtps word" href="javascript:music(dyhtps);">
+    Do you hear the people sing?
+</a>
+
+<script src = "music.js"></script>
+<script src = "easteregg.js"></script>
+
+<br>
+<a href="javascript:volumeSet();" id="Volume">
+    Volume
+</a>
+
+<a>
+    &nbsp
+</a>
+
+<a href="javascript:musicpause();" id="Pause" >
+    Pause all musics
+</a>
+
+<div class='pakour'>
+    <input id="pakour" type="button" value="Pakour" onclick="pakour()">
+</div>
+
+<a id="htmlchange" href="javascript:htmlchange(2);">Change Html</a>
+
+<div id="htmls" class="htmls">
+<div id='html1'>
+    <input type="button" value="html1(computer)" onclick="changegame(1)">
+</div>
+<div id='html2'>
+    <input type="button" value="html2(phone)" onclick="changegame(2)">
+</div>
+</div>
+
+<script src="HtmlHandler.js"></script>
+
+</body>
+</html>
+
+
