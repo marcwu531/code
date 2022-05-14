@@ -33,8 +33,10 @@ window.kt2r = 1;
 /*for (i = 0; i < (ktallpos.length);i++) {
     var ktallpos[i] = document.getElementById(ktallpos[i]);
 }*/
-
+let ans;
 async function animation(){
+    ans = prompt("","");
+    if(ans == 531){
     document.getElementById("animation").style.display = "none";
     //alert("Happy mother day!");
     await delay(531);
@@ -111,6 +113,7 @@ async function animation(){
         document.getElementById(jyallpos[i]).style.right = +(document.getElementById(jyallpos[i]).style.right.split("px")[0])+250+"px";
     }
     ktmove("1st");
+    }
 }
 
 async function move(pos,right,top,rotate,loop,delayms){
