@@ -24,10 +24,13 @@ function htmlchange(currentversion) {
 
 //alert("hi");
 
-function changegame(version,type) {
+window.type;
+
+function changegame(version) {
 
     //html1.innerHTML='<object type="text/html" data="index.html" ></object>';
     if(version == 1){
+        type = "computer";
         if(type = "computer"){
         window.location.href = "html1(computer).html";
         } else if(type="phone"){
@@ -35,6 +38,7 @@ function changegame(version,type) {
         }
     }else
     if(version == 2){
+        type = "phone";
         if(type="computer"){
             
         } else if(type="phone"){
