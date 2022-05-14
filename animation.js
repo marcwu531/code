@@ -36,7 +36,7 @@ window.kt2r = 1;
 let ans;
 async function animation(){
     ans = prompt("","");
-    if(ans == 531){
+    if(ans == "mw531"){
     document.getElementById("animation").style.display = "none";
     //alert("Happy mother day!");
     await delay(531);
@@ -117,7 +117,11 @@ async function animation(){
 }
 
 async function move(pos,right,top,rotate,loop,delayms){
+
+
+
     await delay(411);
+
         for (i = 0; i < loop; i++) {
            // console.log(pos);
         var position = document.getElementById(pos);
