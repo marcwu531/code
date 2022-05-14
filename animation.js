@@ -105,7 +105,8 @@ async function animation(){
     jyleftleg.style.transform = "rotate(-45deg)";
     jyrightleg.style.right = -300 + "px";
     jyrightleg.style.top = 350 + "px";
-    jyrightleg.style.transform = "rotate(45deg)";
+    jyrightleg.style.transform = "rotate(45deg)"
+    document.getElementById("jy").style.overflow = "hidden";
     for (i = 0; i < ktallpos.length; i++) {
         document.getElementById(ktallpos[i]).style.right = +(document.getElementById(ktallpos[i]).style.right.split("px")[0])+175+"px";
     }
