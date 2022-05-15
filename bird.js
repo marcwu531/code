@@ -27,7 +27,9 @@ function bird() {
     isornotok = 0;
     jumpable = 1;
     document.getElementById('game').style.display = "block";
+    if(type == "computer"){
     document.getElementById('balljump').style.display = "block";
+    }
     
     jumping = 0;
     jumpCount = 0;
@@ -168,7 +170,7 @@ function askspd() {
     }
 }
 
-async function birdtype(type) {
+/*async function birdtype(type) {
     document.getElementById("balljump").style.display = "block";
     await delay(100);
     if(type = "computer"){
@@ -178,4 +180,4 @@ async function birdtype(type) {
     }
     await delay(100);
     document.getElementById("balljump").style.display = "none";
-}
+}*/

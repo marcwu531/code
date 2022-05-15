@@ -34,7 +34,7 @@ function changegame(version) {
         type = "computer";
         //if(type == "computer"){
         window.location.href = "html1(computer).html";
-        birdtype(type);
+        //birdtype(type);
         }/* else if(type == "phone"){
             
         }*/
@@ -42,7 +42,7 @@ function changegame(version) {
          type = "phone"
         //window.location.href = "html1(phone).html";
         window.location.href = "html1(computer).html";
-        birdtype(type);
+        //birdtype(type);
     } else
     if(version == 2.2){
         type = "phone";

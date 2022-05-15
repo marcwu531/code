@@ -2,6 +2,10 @@ function clicked() {
     /*if(jumpable != 0) {
         jump();
     }*/
+    
+    if(type == "phohe"){
+        jump();
+    }
     rngnumber(-73, 531);
     if(rng == 411) {
         alert(`
