@@ -385,7 +385,7 @@ window.onresize = function(event) {
     updateWindowSize(5000);
 }*/
 
-let clickable = ["animation","html1","htmlchange","html2"];
+let clickable = ["animation","html1.1","htmlchange","html1.2","html2.2"];
 
 document.addEventListener("touchstart", function(e){
 e.preventDefault();
