@@ -168,10 +168,14 @@ function askspd() {
     }
 }
 
-function birdtype(type) {
+async function birdtype(type) {
+    document.getElementById("balljump").style.display = "block";
+    await delay(100);
     if(type = "computer"){
         document.getElementById("balljump").style.right = (-575) + "px";
     } else if(type = "phone"){
         document.getElementById("balljump").style.right = (-600) + "px";
     }
+    await delay(100);
+    document.getElementById("balljump").style.display = "none";
 }
