@@ -27,8 +27,13 @@ function bird() {
     isornotok = 0;
     jumpable = 1;
     document.getElementById('game').style.display = "block";
-    if(type == "computer"){
+    //if(type == "computer"){
     document.getElementById('balljump').style.display = "block";
+    //}
+    
+    if(type == "phone"){
+    document.getElementById('balljump').style.visibility = "hidden";
+    document.getElementById('balljump').onclick = ;
     }
     
     jumping = 0;
