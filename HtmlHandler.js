@@ -48,7 +48,6 @@ function changegame(version) {
         window.location.href = "html2(phone).html";
         }
     }
-}
 
 document.getElementById("html1.1").style.display = "none";
 document.getElementById("html1.2").style.display = "none";
