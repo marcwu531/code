@@ -21,6 +21,11 @@ if(type == "phone") {
     await delay(100);*/
 document.getElementById('balljump').style.display = "none";
 
+function checktype(){
+    if(type == "phone"){
+    document.getElementById('balljump').style.visibility = "hidden";
+}
+
 function bird() {
     if (isornotok != 0) {
     askspd();
@@ -31,9 +36,9 @@ function bird() {
     document.getElementById('balljump').style.display = "block";
     //}
     
-    if(type == "phone"){
-    document.getElementById('balljump').style.visibility = "hidden";
-    document.getElementById('balljump').onclick = ;
+    checktype();
+    
+    //document.getElementById('balljump').onclick = "";
     }
     
     jumping = 0;
