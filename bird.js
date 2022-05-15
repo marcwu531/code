@@ -21,9 +21,10 @@ if(type == "phone") {
     await delay(100);*/
 document.getElementById('balljump').style.display = "none";
 
-function checktype(){
+async function checktype(){
     if(type == "phone"){
     document.getElementById('balljump').style.visibility = "hidden";
+    }
 }
 
 function bird() {
