@@ -39,7 +39,7 @@ function changegame(version) {
             
         }*/
      else if(version == 1.2){
-        type = "phone"
+        type = "phone";
         //window.location.href = "html1(phone).html";
         window.location.href = "html1(computer).html";
         //birdtype(type);
