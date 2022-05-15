@@ -10,15 +10,15 @@ var background = document.getElementById('game');
 console.log(background.style.bottom);
 let blockspd = 2;
 
-document.getElementById('balljump').style.display = "block";
+/*document.getElementById('balljump').style.display = "block";
 await(100);
 if(type == "phone") {
     document.getElementById("balljump").style.right = (-600) + "px";
 
-    } else /*if (type == "computer")*/{
+    } else /*if (type == "computer"){
         document.getElementById("balljump").style.right = (-575) + "px";
     }
-    await delay(100);
+    await delay(100);*/
 document.getElementById('balljump').style.display = "none";
 
 function bird() {
