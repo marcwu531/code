@@ -17,10 +17,11 @@ function bird() {
     jumpable = 1;
     document.getElementById('game').style.display = "block";
     document.getElementById('balljump').style.display = "block";
+    
     if(type == "phone") {
-    document.getElementById('balljump').style.right = -600 + "px";
-    } else if (type == "computer") {
-        document.getElementById('balljump').style.right = -575 + "px";
+    document.getElementById("balljump").style.right = (-600) + "px";
+    } else /*if (type == "computer")*/{
+        document.getElementById("balljump").style.right = (-575) + "px";
     }
 
     jumping = 0;
