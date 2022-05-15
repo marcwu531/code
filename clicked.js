@@ -3,7 +3,7 @@ function clicked() {
         jump();
     }*/
     
-    if(type == "phohe"){
+    if(type == "phone"){
         jump();
     }
     rngnumber(-73, 531);
