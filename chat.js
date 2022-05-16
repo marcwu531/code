@@ -4,7 +4,7 @@ function chat() {
     /*if(ans == "HI"){
         alert("Hi");
     }*/
-    var chatletter = document.getElementById("chatbutton");
-    chatletter.value = ans;
-    alert("Nedon cheung is gay")
+    //var chatletter = document.getElementById("chatbutton");
+    //chatletter.value = ans;
+    alert("Nedon cheung is gay");
 }
