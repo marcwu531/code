@@ -114,10 +114,10 @@ function bird() {
         }
     },
         10);
-} else {
+}/* else {
     alert("Please refresh this page to replay.");
     endgame("bird");
-}
+}*/
 
 function jump() {
 if (birdstopall == 0) {
