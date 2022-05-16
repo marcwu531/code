@@ -11,6 +11,7 @@ function htmlchange(currentversion) {
     document.getElementById("html1.1").style.display = "block";
     document.getElementById("html1.2").style.display = "block";
     document.getElementById("html2.2").style.display = "block";
+    document.getElementById("html3").style.display = "block";
 }
 
 //document.getElementById("html1").style.display = "none";
@@ -49,7 +50,7 @@ function changegame(version) {
         //if(type == "computer"){
             
         /* else if(type == "phone"){*/
-        window.location.href = "html2(phone).html";
+        window.location.href = "html3.html";
         } else if(version == 3.1){
             type = "computer";
             window.location.href = "html3.html";
@@ -59,3 +60,4 @@ function changegame(version) {
 document.getElementById("html1.1").style.display = "none";
 document.getElementById("html1.2").style.display = "none";
 document.getElementById("html2.2").style.display = "none";
+document.getElementById("html3").style.display = "none";
