@@ -50,9 +50,9 @@ function changegame(version) {
         //if(type == "computer"){
             
         /* else if(type == "phone"){*/
-        window.location.href = "html3.html";
+        window.location.href = "html2(phone).html";
         } else if(version == 3){
-            type = "computer";
+            //type = "computer";
             window.location.href = "html3.html";
             }
     }
