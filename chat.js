@@ -5,5 +5,5 @@ function chat() {
         alert("Hi");
     }*/
     var chatletter = document.getElementById("chatbutton");
-    chatletter.innerHTML = ans;
+    chatletter.value = ans;
 }
