@@ -6,5 +6,5 @@ function chat() {
     }*/
     //var chatletter = document.getElementById("chatbutton");
     //chatletter.value = ans;
-    alert("Nedon cheung is gay");
+    alert("Nedon Cheung is Gay");
 }
