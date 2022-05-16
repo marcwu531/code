@@ -50,7 +50,10 @@ function changegame(version) {
             
         /* else if(type == "phone"){*/
         window.location.href = "html2(phone).html";
-        }
+        } else if(version == 3.1){
+            type = "computer";
+            window.location.href = "html3.html";
+            }
     }
 
 document.getElementById("html1.1").style.display = "none";
