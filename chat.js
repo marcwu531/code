@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", () => {
+/*document.addEventListener("DOMContentLoaded", () => {
     const inputField = document.getElementById("input")
     inputField.addEventListener("keydown", function(e) {
         if (e.code === "Enter") {
             /*let input = inputField.value;
             inputField.value = "";
-            output(input);*/
+            output(input);*
         let input = document.getElementById("input").value;
         document.getElementById("user").innerHTML = input;
         output(input);
@@ -43,14 +43,14 @@ function output(input) {
     //clear input value
     document.getElementById("input").value = "";
 }
-}*/
+}*
 }
 
 const trigger = [
 //0 
 ["hi", "hey", "hello"],
 //1
-["how are you"/*, "how are things"*/],
+["how are you"/*, "how are things"*],
 //2
 ["what is going on", "what is up"],
 //3
