@@ -9,7 +9,7 @@ html {
 
 body {
     font-family: 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica,
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, Helvetica,
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -68,7 +68,7 @@ input {
 }
 
 .bot {
-    font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,
+    font-family: Consolas, 'Courier New', Menlo, source-code-pro, Monaco,
     monospace;
 }
 
@@ -85,7 +85,7 @@ input {
 
 /* Mobile */
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 980px) {
     .container {
         flex-direction: column;
         justify-content: flex-start;
