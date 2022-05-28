@@ -1,4 +1,4 @@
-* {
+/** {
     box-sizing: border-box;
 }
 
@@ -83,7 +83,7 @@ input {
 }
 
 
-/* Mobile */
+/* Mobile *
 
 @media only screen and (max-width: 980px) {
     .container {
