@@ -56,8 +56,9 @@ function changegame(version) {
             //type = "computer";
             window.location.href = "html3.html";
             }
-    } else if (version == 4){
+            else if (version == 4){
         window.location.href = "html4.html";
+    }
     }
 
 document.getElementById("html1.1").style.display = "none";
