@@ -13,6 +13,7 @@ function htmlchange(currentversion) {
     document.getElementById("html2.2").style.display = "block";
     document.getElementById("html3").style.display = "block";
     document.getElementById("html4").style.display = "block";
+document.getElementById("html5").style.display = "block";
 }
 
 //document.getElementById("html1").style.display = "none";
@@ -59,10 +60,14 @@ function changegame(version) {
             else if (version == 4){
         window.location.href = "html4.html";
     }
+else if (version == 5){
+        window.location.href = "html5.html";
+}
     }
 
 document.getElementById("html1.1").style.display = "none";
 document.getElementById("html1.2").style.display = "none";
 document.getElementById("html2.2").style.display = "none";
 document.getElementById("html3").style.display = "none";
+document.getElementById("html4").style.display = "none";
 document.getElementById("html4").style.display = "none";
